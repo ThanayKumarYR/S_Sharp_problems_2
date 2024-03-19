@@ -32,9 +32,7 @@ namespace CSharp_problems_2
             catch (Exception ex) 
             {
                 Console.WriteLine(ex.Message);
-            }
-
-            
+            } 
         }
     }
 }

@@ -23,7 +23,7 @@ namespace CSharp_problems_2
             Console.Write("Enter the number = ");
             int number = int.Parse(Console.ReadLine());
 
-            for (int i = 2; i <= Math.Sqrt(number); i++)
+            for (int i = 2; i <= number; i++)
             {
                 if (number % i == 0)
                 {
